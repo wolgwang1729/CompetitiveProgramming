@@ -1,3 +1,6 @@
+/*
+Author : wolgwang :D
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #ifndef ONLINE_JUDGE
@@ -45,22 +48,24 @@ void _print(double t) { cerr << t; }
 void _print(ull t) { cerr << t; }
 
 template <class T, class V>
-void _print(pair<T, V> p);template <class T>
+void _print(pair<T, V> pfx);template <class T>
 void _print(vector<T> v1);template <class T>
 void _print(deque<T> v1);template <class T>
 void _print(set<T> v1);template <class T, class V>
+void _print(unordered_set<T> v1);template <class T, class V>
 void _print(map<T, V> v1);template <class T>
 void _print(multiset<T> v1);template <class T, class V>
-void _print(pair<T, V> p){cerr << "{";_print(p.ff);cerr << ",";_print(p.ss);cerr << "}";}
+void _print(pair<T, V> pfx){cerr << "{";_print(pfx.ff);cerr << ",";_print(pfx.ss);cerr << "}";}
 template <class T>void _print(vector<T> v1){cerr << "[ ";for (T i : v1){_print(i);cerr << " ";}cerr << "]";}
 template <class T>void _print(deque<T> v1){cerr << "[ ";for (T i : v1){_print(i);cerr << " ";}cerr << "]";}
 template <class T>void _print(set<T> v1){cerr << "[ ";for (T i : v1){_print(i);cerr << " ";}cerr << "]";}
+template <class T>void _print(unordered_set<T> v1){cerr << "[ ";for (T i : v1){_print(i);cerr << " ";}cerr << "]";}
 template <class T>void _print(multiset<T> v1){cerr << "[ ";for (T i : v1){_print(i);cerr << " ";}cerr << "]";}
 template <class T, class V>void _print(map<T, V> v1){cerr << "[ ";for (auto i : v1){_print(i);cerr << " ";} cerr << "]";}
 
-
-
-void solve() {
+void solve()
+{
+   
 }
 int main()
 {
@@ -72,6 +77,6 @@ int main()
     cin >> testcases;
     while (testcases--)
     {
-        solve(); 
+        solve();
     }
 }
