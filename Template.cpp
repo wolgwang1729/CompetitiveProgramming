@@ -65,8 +65,9 @@ template <class T, class V>void _print(map<T, V> v1){cerr << "[ ";for (auto i : 
 
 void solve()
 {
-   
+    
 }
+
 int main()
 {
 #ifndef ONLINE_JUDGE
@@ -75,8 +76,9 @@ int main()
     fastio();
     int testcases = 1;
     cin >> testcases;
-    while (testcases--)
+    for (int testcase = 1; testcase <= testcases; testcase++)
     {
+        debug(testcase);
         solve();
     }
 }
